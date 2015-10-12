@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="ie lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="ie lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="ie lt-ie9"> <![endif]-->
+<!--[if gt IE 8]> <html> <![endif]-->
+<!--[if !IE]><!--><html><!-- <![endif]-->
+
+<!-- Mirrored from demo.mosaicpro.biz/flatplus/php/admin/typography.html?lang=en by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 04 Dec 2013 08:28:27 GMT -->
+<head>
+	<title>FLAT PLUS Template (v1.0.0)</title>
+	
+	<!-- Meta -->
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+	
+	<!-- 
+	**********************************************************
+	In development, use the LESS files and the less.js compiler
+	instead of the minified CSS loaded by default.
+	**********************************************************
+	<link rel="stylesheet/less" href="../assets/less/pages/module.admin.page.typography.less" />
+	-->
+	
+		<link rel="stylesheet" href="http://demo.mosaicpro.biz/flatplus/php/assets/less/pages/serveStyles.css?module=admin&amp;page=typography&amp;url_rewrite=&amp;lang=en" />
+	
+	<script src="http://demo.mosaicpro.biz/shared/components/library/jquery/jquery.min.js"></script>
+<script src="http://demo.mosaicpro.biz/shared/components/library/jquery/jquery-migrate.min.js"></script>
+<script src="http://demo.mosaicpro.biz/shared/components/library/modernizr/modernizr.js"></script>
+<script src="http://demo.mosaicpro.biz/shared/components/plugins/less-js/less.min.js"></script>
+<script src="http://demo.mosaicpro.biz/shared/components/modules/admin/charts/flot/assets/lib/excanvas.js"></script>
+<script src="http://demo.mosaicpro.biz/shared/components/plugins/browser/ie/ie.prototype.polyfill.js"></script>	
+</head>
+<body class="sidebar-mini">
+
+		<nav class="navbar navbar-fixed-top navbar-inverse main" role="navigation">
+    <div class="navbar-header">
+        <div class="navbar-brand">
+            <div class="pull-left"><a href="#" class="toggle-button toggle-sidebar"><i class="fa fa-bars"></i></a></div>
+            <a href="#" class="appbrand">Flat+</a>
+            <!-- <div class="dropdown color-picker pull-left">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-eye-dropper"></i> </a>
+                <ul class="dropdown-menu">
+                    <li>Color</li>
+                </ul>
+            </div> -->
+            <!-- <a href="" class="btn text-regular"><i class="icon-mixer fa fa-fw"></i> Menu Color</a> -->
+        </div>
+        <button type="button" class="navbar-toggle " data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar "></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-navbar-collapse">
+        <form class="navbar-form navbar-left" role="search">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Type in here...">
+                <div class="input-group-btn">
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="hidden-tablet">Category </span><b class="caret"></b></a>
+                        <ul class="dropdown-menu pull-right list">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="input-group-btn">
+                    <button type="submit" class="btn btn-inverse"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+        </form>
+        <ul class="nav navbar-nav navbar-left">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img src="http://demo.mosaicpro.biz/flatplus/php/assets/images/people/35/8.jpg" alt="" class="img-circle"><span class="hidden-tablet"> &nbsp; Adrian Demian </span><span class="caret"></span></a>
+                <ul class="dropdown-menu list pull-right ">
+                    <li><a href="#">Your Profile <i class="fa fa-user pull-right"></i></a></li>
+                    <li><a href="#">Edit Account <i class="fa fa-pencil pull-right"></i></a></li>
+                    <li><a href="#">Get Help <i class="fa fa-question-circle pull-right"></i></a></li>
+                    <li><a href="#">Log out <i class="fa fa-sign-out pull-right"></i></a></li>
+                </ul>
+            </li>
+            <li class="user-notifications border-none">
+                <a href="#" class="dropdown-toggle text-primary" data-toggle="dropdown">  5 <i class="icon-bell-fill"></i></a>
+                <ul class="dropdown-menu user-alerts pull-right">
+                    <li class="headline">Notifications</li>
+                    <li class="innerAll">
+                        <div class="media">
+                            <i class="fa fa-user fa-2x pull-left disabled"></i>
+                            <div class="media-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                <a href="#" class="btn btn-primary btn-xs">Go now</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="innerAll">
+                        <div class="media">
+                            <i class="fa fa-file fa-2x pull-left disabled"></i>
+                            <div class="media-body">
+                                <div class="pull-right label label-default">2 days</div>
+                                <a href="#">Adrian Demian</a> <em>wrote: </em>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                                <a href="#" class="btn btn-primary btn-xs">read article</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="innerAll">
+                        <div class="media">
+                            <i class="fa fa-comments fa-2x pull-left disabled"></i>
+                            <div class="media-body">
+                                <a href="#">mosaicpro</a> <em>commented: </em>Lorem ipsum dolor sit amet, consectetur adipisicing elit 
+                                <a href="#" class="btn btn-primary btn-xs">reply </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown notification">
+                <a href="#" class="dropdown-toggle menu-icon" data-toggle="dropdown"><i class="fa fa-fw fa-envelope-o"></i><span class="badge badge-primary">2</span></a>
+                <ul class="dropdown-menu inbox">
+                    <li class="headline">Inbox</li>
+                    <li>
+                        <input type="text" class="form-control border-none" placeholder="Search Email..."/>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img src="http://demo.mosaicpro.biz/flatplus/php/assets/images/people/50/8.jpg" alt="" class="img-circle media-object"> 
+                            </a>
+                            <div class="media-body">
+                                <a href="#" class="strong text-primary"> <i class="fa fa-circle"></i> Adrian Demian</a> <span>(3)</span><span class="pull-right time-email">10:20 AM</span>
+                                <div class="clearfix"></div>
+                                Lorem ipsum dolor sit amet, consecte adipisicing elit.
+                            </div>
+                        </div>    
+                    </li>
+                    <li>
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img src="http://demo.mosaicpro.biz/flatplus/php/assets/images/people/50/3.jpg" alt="" class="img-circle media-object"> 
+                            </a>
+                            <div class="media-body">
+                                <a href="#" class="strong text-primary"> Joanne Smith</a><span>(1)</span><span class="pull-right time-email">06:48 PM</span>
+                                <div class="clearfix"></div>
+                                Lorem ipsum dolor sit amet, consecte adipisicing elit.
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img src="http://demo.mosaicpro.biz/flatplus/php/assets/images/people/50/20.jpg" alt="" class="img-circle media-object"> 
+                            </a>
+                            <div class="media-body">
+                                <a href="#" class="strong text-primary"> <i class="fa fa-circle"></i> Mister Awesome</a> <span>(7)</span><span class="pull-right time-email">04:22 PM</span>
+                                <div class="clearfix"></div>
+                                Lorem ipsum dolor sit amet, consecte adipisicing elit.
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown notification hidden-sm hidden-md">
+                <a href="#" class="dropdown-toggle menu-icon" data-toggle="dropdown"><i class="fa fa-fw fa-exclamation-circle"></i><span class="badge badge-info">2</span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Separated link</a></li>
+                </ul>
+            </li>
+             <li class="dropdown notification">
+                <a href="#" class="dropdown-toggle menu-icon" data-toggle="dropdown"><i class="fa fa-fw fa-dropbox"></i><span class="badge badge-success badge-icon"><i class="fa fa-check"></i></span></a>
+                <ul class="dropdown-menu dropbox list">
+                    <li class="headline ">
+                       <div class="row">
+                           <div class="col-md-6">
+                               Dropbox Folder
+                           </div>
+                           <div class="col-md-6">
+                               <a href="#">Settings <i class="fa fa-cog"></i></a>
+                           </div>
+                       </div>
+                    </li>
+                    <li class="clean info">RECENTLY CHANGED</li>
+                    <li>
+                        <ul class="media-list">
+                            <li class="media">
+                                <a class="pull-left" href="#">
+                                    <img class="media-object" data-src="holder.js/35x35" alt="...">
+                                    </a>
+                                    <div class="media-body">
+                                        <a class="padding-none ">Media heading</a>
+                                        <div class="clearfix"></div>
+                                        <em>59 minutes ago</em>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    <li>
+                        <ul class="media-list">
+                            <li class="media">
+                                <a class="pull-left" href="#">
+                                    <img class="media-object" data-src="holder.js/35x35" alt="...">
+                                </a>
+                                <div class="media-body">
+                                    <a class="padding-none ">Media heading</a>
+                                    <div class="clearfix"></div>
+                                    <em>59 minutes ago</em>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="media-list">
+                            <li class="media">
+                                <a class="pull-left" href="#">
+                                    <img class="media-object" data-src="holder.js/35x35" alt="...">
+                                </a>
+                                <div class="media-body">
+                                    <a class="padding-none ">Media heading</a>
+                                    <div class="clearfix"></div>
+                                    <em>59 minutes ago</em>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="media-list">
+                            <li class="media">
+                                <a class="pull-left" href="#">
+                                    <img class="media-object" data-src="holder.js/35x35" alt="...">
+                                </a>
+                                <div class="media-body">
+                                    <a class="padding-none ">Media heading</a>
+                                    <div class="clearfix"></div>
+                                    <em>59 minutes ago</em>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="http://demo.mosaicpro.biz/flatplus/php/assets//images/lang/en-flat.jpg" /></a>
+                <ul class="dropdown-menu pull-right">
+                    <li class="active"><a href="#">English</a></li>
+                    <li><a href="#">Romanian</a></li>
+                </ul>
+            </li>
+            <li><a href="#" class="menu-icon"><i class="fa fa-sign-out"></i></a></li>
+        </ul>
+    </div><!-- /.navbar-collapse -->
+</nav>
+
+	
+	<div class="sidebar sidebar-default">
+	<div class="user-profile media innerAll">
+		<a href="#" class="pull-left"><img src="http://demo.mosaicpro.biz/flatplus/php/assets/images/people/50/8.jpg" alt="" class="img-circle"><span class="badge badge-primary">2</span></a>
+		<div class="media-body">
+			<a href="#" class="strong">Adrian Demian</a>
+			<p class="text-success"><i class="fa fa-fw fa-circle"></i> Online</p>
+		</div>
+		<ul>
+			<li class="active"><a href="#"><i class="fa fa-fw fa-user"></i></a></li>
+			<li><a href="#"><i class="fa fa-fw fa-envelope"></i></a></li>
+			<li><a href="#"><i class="fa fa-fw fa-lock"></i></a></li>
+		</ul>
+	</div>
+	<div class="sidebarMenuWrapper">
+		<ul class="list-unstyled">
+			<li><a href="index9ed2.html?lang=en"><i class="icon-open-sign"></i><span>Dashboard</span></a></li>
+			<li class="hasSubmenu">
+				<a href="#" data-target="#collapse-menu" data-toggle="collapse"><i class="icon-up-down"></i><span>Collapsible Menu</span></a>
+				<ul class="collapse" id="collapse-menu">
+					<li><a href="#">Menu item</a></li>
+					<li><a href="#">Menu item</a></li>
+					<li><a href="#">Menu item</a></li>
+					<li><a href="#">Menu item</a></li>
+				</ul>
+			</li>
+			<li><a href="ui9ed2.html?lang=en"><i class="icon-butterfly"></i><span>Buttons &amp; Icons</span></a></li>
+			<li class="hasSubmenu">
+				<a href="#" data-target="#forms-menu" data-toggle="collapse"><i class="icon-compose"></i><span>Forms</span></a>
+				<ul class="collapse" id="forms-menu">
+					<li><a href="form_wizards9ed2.html?lang=en">Form Wizards</a></li>
+					<li><a href="form_elements9ed2.html?lang=en">Form Elements</a></li>
+					<li><a href="form_validator9ed2.html?lang=en">Form Validator</a></li>
+					<li><a href="file_managers9ed2.html?lang=en">File Managers</a></li>
+				</ul>
+			</li>
+			<li><a href="tables9ed2.html?lang=en"><i class="icon-categories"></i><span>Tables</span></a></li>
+			<li class="active"><a href="typography9ed2.html?lang=en"><i class="icon-paper-document"></i><span>Typography</span></a></li>
+			<li><a href="grid9ed2.html?lang=en"><i class="icon-dial-pad"></i><span>Grid System</span></a></li>
+			<li><a href="notifications9ed2.html?lang=en"><i class="icon-signal"></i><span>Alerts &amp; Notifications</span></a></li>
+			<li><a href="modals9ed2.html?lang=en"><i class="icon-new-window"></i><span>Modals</span></a></li>
+			<li><a href="widgets9ed2.html?lang=en"><i class="icon-browser"></i><span>Widgets</span></a></li>
+			<li><a href="sliders9ed2.html?lang=en"><i class="icon-sliders"></i><span>Sliders</span></a></li>
+			<li><a href="gallery9ed2.html?lang=en"><i class="icon-film-strip"></i><span>Media &amp; Carousels</span></a></li>
+			<li><a href="timelines9ed2.html?lang=en"><i class="icon-manager"></i><span>Timelines</span></a></li>
+			<li><a href="tabs9ed2.html?lang=en"><i class="icon-folder-add"></i><span>Tabs</span></a></li>
+			<li><a href="charts9ed2.html?lang=en"><i class="icon-graph-up-1"></i><span>Charts</span></a></li>
+			<li><a href="calendar9ed2.html?lang=en"><i class="icon-calendar-1"></i><span>Calendar</span></a></li>
+			<li><a href="maps_google9ed2.html?lang=en"><i class="icon-map-location-fill-2"></i><span>Maps</span></a></li>
+			<li><a href="ratings9ed2.html?lang=en"><i class="icon-tv-star"></i><span>Ratings</span></a></li>
+		</ul>
+	</div>
+</div>
+
+
+	<div id="content"><h1 class="content-heading bg-white border-bottom">Typography <span>and content elements</span></h1>
+<div class="innerAll spacing-x2">
+	
+	<div class="widget">
+		<div class="widget-body padding-none">
+			<div class="jumbotron bg-white margin-none center">
+				<h1 class="separator bottom">Really getting your attention!</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac dictum mauris. Vivamus blandit, odio et suscipit dictum, nisl velit rhoncus est, at elementum urna sapien ac nisi. Nulla sit amet odio vestibulum quam commodo egestas.</p>
+				<p class="margin-none innerT"><a class="btn btn-primary btn-lg">Very long and big button</a></p>
+			</div>
+		</div>
+	</div>
+	
+
+	<div class="lead center innerTB">
+		<h2>Leading Heading &amp; Paragraph</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac dictum mauris. Vivamus blandit, odio et suscipit dictum, nisl velit rhoncus est, at elementum urna sapien ac nisi. Nulla sit amet odio vestibulum quam commodo egestas.</p>
+	</div>
+	
+	<!-- Widget Container Start  -->
+	<div class="widget">
+		<div class="widget-body">
+		
+		<div class="row">
+			<div class="col-md-4">
+				<div class="widget widget-heading-simple widget-body-white">
+					<div class="widget-body">
+						<div class="glyphicons glyphicon-xlarge glyphicon-top display">
+							<i></i>
+							<h4>Large Top Icons</h4>
+							<p class="margin-none">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an <br> <a href="#">learn more</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="innerTB">
+					<div class="glyphicons glyphicon-xlarge glyphicon-top eyedropper glyphicon-primary">
+						<i></i>
+						<h4>Primary Icon &amp; No background</h4>
+						<p class="margin-none">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an <br> <a href="#">learn more</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="widget widget-heading-simple widget-body-gray">
+					<div class="widget-body">
+						<div class="glyphicons glyphicon-xlarge glyphicon-top eyedropper">
+							<i></i>
+							<h4>Gray Background</h4>
+							<p class="margin-none">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an <br> <a href="#">learn more</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-4">
+				<div class="widget widget-heading-simple widget-body-white">
+					<div class="widget-body">
+						<div class="innerL">
+							
+							<div class="separator bottom"></div>
+							<div class="glyphicons glyphicon-large group">
+								<i></i>
+								<h4>Large Left Icons</h4>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an <br> <a href="#">learn more</a></p>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="innerTB">
+					<div class="separator bottom"></div>
+					<div class="glyphicons glyphicon-large iphone">
+						<i></i>
+						<h4>No Background</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an <br> <a href="#">learn more</a></p>
+					</div>
+					<div class="separator bottom"></div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="widget widget-heading-simple widget-body-gray">
+					<div class="widget-body">
+						
+						<div class="separator bottom"></div>
+						<div class="glyphicons glyphicon-large magic group-column">
+							<i></i>
+							<h4>Gray Background</h4>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an <br> <a href="#">learn more</a></p>
+						</div>
+				
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="lead separator center relativeWrap">
+			<p class="innerTB margin-none">
+				<i class="fa fa-spinner fa-spin fa-large"></i> Spinner icon when loading content ...
+			</p>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-4">
+				<div class="widget widget-heading-simple widget-body-white">
+					<div class="widget-head"><h4 class="heading strong text-uppercase">Left Quote</h4></div>
+					<div class="widget-body">
+						<p><i class="fa fa-quote-left fa-4x pull-left fa-muted"></i> Aliquam rutrum, sem at scelerisque tempor, nulla diam pulvinar tortor, id pulvinar massa velit eu purus. Curabitur eu fringilla diam, sed suscipit lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras iaculis enim vel odio imperdiet faucibus. Aliquam erat volutpat.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="widget widget-heading-simple widget-body-white">
+					<div class="widget-head"><h4 class="heading strong text-uppercase">Right Quote</h4></div>
+					<div class="widget-body">
+						<p><i class="fa fa-quote-right fa-4x pull-right fa-muted"></i> Aliquam rutrum, sem at scelerisque tempor, nulla diam pulvinar tortor, id pulvinar massa velit eu purus. Curabitur eu fringilla diam, sed suscipit lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras iaculis enim vel odio imperdiet faucibus. Aliquam erat volutpat.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="widget widget-heading-simple widget-body-primary">
+					<div class="widget-head"><h4 class="heading strong text-uppercase">Great Content Addon</h4></div>
+					<div class="widget-body">
+						<p><i class="fa fa-gift fa-4x pull-right text-primary"></i> Aliquam rutrum, sem at scelerisque tempor, nulla diam pulvinar tortor, id pulvinar massa velit eu purus. Curabitur eu fringilla diam, sed suscipit lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras iaculis enim vel odio imperdiet faucibus. Aliquam erat volutpat.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	</div></div> 
+	<!-- Widget Container End  -->
+	<div class="widget">
+		<div class="widget-body padding-none">
+			<div class="row">
+				<div class="col-md-4 relativeWrap">
+					<div class="innerAll center">
+						<h5 class="strong text-uppercase">Headings</h5>
+						<div data-toggle="source-code">
+							<h1>h1. Heading 1</h1>
+							<h2>h2. Heading 2</h2>
+							<h3>h3. Heading 3</h3>
+							<h4>h4. Heading 4</h4>
+							<h5>h5. Heading 5</h5>
+							<h6>h6. Heading 6</h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8 relativeWrap">
+					<div class="innerAll">
+						<h5 class="strong text-uppercase">Paragraphs, Links &amp; Text Utilities</h5>
+						<div data-toggle="source-code">
+							<p><span class="strong">Strong text lorem ipsum dolor sit amet</span>, consectetur adipiscing elit. <a href="#">Regular link morbi ac dictum mauris</a>. Odio et suscipit dictum, nisl velit rhoncus est, at elementum urna sapien ac nisi. Nulla sit amet odio vestibulum quam commodo egestas. Phasellus dolor libero, tristique non sapien id, malesuada pretium orci. Proin tellus neque, pellentesque eget eros ut, convallis mattis dolor. Aenean pretium, enim ac eleifend placerat, tortor justo tristique turpis, eget eleifend nunc lacus a nibh. Curabitur eu consectetur nulla. Duis vulputate augue nisi, eget egestas lacus tempus eget.</p>
+							<p><span class="text-primary strong text-uppercase">Primary color & uppercase text</span> Duis pellentesque sed mauris convallis tristique. Suspendisse potenti. Donec dictum ullamcorper bibendum. Quisque tristique neque id sodales vehicula. <span class="text-underline">Underline text, dolor a porttitor auctor, nisl urna interdum ipsum</span>, vel sodales urna nunc nec neque. Curabitur rutrum gravida mi eget congue. Suspendisse tincidunt urna in quam adipiscing, ut cursus massa porttitor. Fusce viverra enim eu suscipit tristique. Etiam nec augue ut nibh varius scelerisque vitae ac mi. Nam hendrerit dui vel sagittis vestibulum. Quisque aliquet neque vitae interdum varius. Pellentesque eget nibh fermentum, vestibulum mauris scelerisque, lacinia ligula.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="lead center innerTB">
+		<h2>Awesome Lists</h2>
+		<p>With FLAT PLUS, you have all different kinds of lists at hand. Ordered lists, Unordered lists, Unstyled lists, Lists with Icons.</p>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-4 ">
+			<div class="widget widget-heading-simple widget-body-white">
+				<div class="widget-head"><h4 class="heading strong text-uppercase">Unstyled List</h4></div>
+				<div class="widget-body" data-toggle="source-code" class="innerAll">
+					<ul class="list-regular list-unstyled">
+						<li>Lorem ipsum dolor sit amet</li>
+						<li>Consectetur adipiscing elit</li> 
+						<li>Fusce nec lacus faucibus</li> 
+						<li>Malesuada tortor ac ornare</li>
+						<li>Integer mauris velit mattis
+							<ul class="list-regular list-unstyled">
+								<li>Quis purus sed pulvinar pulvinar</li> 
+								<li>Lacus ut laoreet sapien est</li>
+								<li>Id placerat felis pulvinar et</li>
+								<li>Curabitur a augue sapien donec</li>
+							</ul>
+						</li>
+						<li>Lobortis lorem sed urna ornare</li> 
+						<li>Accumsan aliquam rutrum sem at</li> 
+						<li>Scelerisque tempor nulla diam</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="widget widget-heading-simple widget-body-white">
+				<div class="widget-head"><h4 class="heading strong text-uppercase">Unordered List</h4></div>
+				<div class="widget-body" data-toggle="source-code" class="innerAll">
+					<ul class="list-regular">
+						<li>Lorem ipsum dolor sit amet</li>
+						<li>Consectetur adipiscing elit</li> 
+						<li>Fusce nec lacus faucibus</li> 
+						<li>Malesuada tortor ac ornare</li>
+						<li>Integer mauris velit mattis
+							<ul class="list-regular">
+								<li>Quis purus sed pulvinar pulvinar</li> 
+								<li>Lacus ut laoreet sapien est</li>
+								<li>Id placerat felis pulvinar et</li>
+								<li>Curabitur a augue sapien donec</li>
+							</ul>
+						</li>
+						<li>Lobortis lorem sed urna ornare</li> 
+						<li>Accumsan aliquam rutrum sem at</li> 
+						<li>Scelerisque tempor nulla diam</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="widget widget-heading-simple widget-body-white">
+				<div class="widget-head"><h4 class="heading strong text-uppercase">Ordered List</h4></div>
+				<div class="widget-body" data-toggle="source-code">
+					<ol>
+						<li>Lorem ipsum dolor sit amet</li>
+						<li>Consectetur adipiscing elit</li> 
+						<li>Fusce nec lacus faucibus</li> 
+						<li>Malesuada tortor ac ornare</li>
+						<li>Integer mauris velit mattis
+							<ol>
+								<li>Quis purus sed pulvinar pulvinar</li> 
+								<li>Lacus ut laoreet sapien est</li>
+								<li>Id placerat felis pulvinar et</li>
+								<li>Curabitur a augue sapien donec</li>
+							</ol>
+						</li>
+						<li>Lobortis lorem sed urna ornare</li> 
+						<li>Accumsan aliquam rutrum sem at</li> 
+						<li>Scelerisque tempor nulla diam</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-4">
+			<div class="widget widget-heading-simple widget-body-white">
+				<div class="widget-head"><h4 class="heading strong text-uppercase">Checkmark List</h4></div>
+				<div class="widget-body" data-toggle="source-code">
+					<ul class="fa-ul">
+						<li><span class="fa fa-li fa-check"></span> Lorem ipsum dolor sit amet</li>
+						<li><span class="fa fa-li fa-check"></span> Consectetur adipiscing elit</li> 
+						<li><span class="fa fa-li fa-check"></span> Fusce nec lacus faucibus</li> 
+						<li><span class="fa fa-li fa-check"></span> Malesuada tortor ac ornare</li>
+						<li><span class="fa fa-li fa-check"></span> Integer mauris velit mattis
+							<ul class="fa-ul">
+								<li><span class="fa fa-li fa-check"></span> Quis purus sed pulvinar pulvinar</li> 
+								<li><span class="fa fa-li fa-check"></span> Lacus ut laoreet sapien est</li>
+								<li><span class="fa fa-li fa-check"></span> Id placerat felis pulvinar et</li>
+								<li><span class="fa fa-li fa-check"></span> Curabitur a augue sapien donec</li>
+							</ul>
+						</li>
+						<li><span class="fa fa-li fa-check"></span> Lobortis lorem sed urna ornare</li> 
+						<li><span class="fa fa-li fa-check"></span> Accumsan aliquam rutrum sem at</li> 
+						<li><span class="fa fa-li fa-check"></span> Scelerisque tempor nulla diam</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="widget widget-heading-simple widget-body-white">
+				<div class="widget-head"><h4 class="heading strong text-uppercase">Crossmark List</h4></div>
+				<div class="widget-body" data-toggle="source-code">
+					<ul class="fa-ul">
+						<li><span class="fa fa-li fa-times"></span> Lorem ipsum dolor sit amet</li>
+						<li><span class="fa fa-li fa-times"></span> Consectetur adipiscing elit</li> 
+						<li><span class="fa fa-li fa-times"></span> Fusce nec lacus faucibus</li> 
+						<li><span class="fa fa-li fa-times"></span> Malesuada tortor ac ornare</li>
+						<li><span class="fa fa-li fa-times"></span> Integer mauris velit mattis
+							<ul class="fa-ul">
+								<li><span class="fa fa-li fa-times"></span> Quis purus sed pulvinar pulvinar</li> 
+								<li><span class="fa fa-li fa-times"></span> Lacus ut laoreet sapien est</li>
+								<li><span class="fa fa-li fa-times"></span> Id placerat felis pulvinar et</li>
+								<li><span class="fa fa-li fa-times"></span> Curabitur a augue sapien donec</li>
+							</ul>
+						</li>
+						<li><span class="fa fa-li fa-times"></span> Lobortis lorem sed urna ornare</li> 
+						<li><span class="fa fa-li fa-times"></span> Accumsan aliquam rutrum sem at</li> 
+						<li><span class="fa fa-li fa-times"></span> Scelerisque tempor nulla diam</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="widget widget-heading-simple widget-body-white">
+				<div class="widget-head">
+					<h4 class="heading strong text-uppercase">Mixed List</h4>
+					<a href="#" class="details pull-right text-underline">See all icons</a>
+					<div class="clearfix"></div>
+				</div>
+				<div class="widget-body" data-toggle="source-code">
+					<ul class="fa-ul">
+						<li><span class="fa fa-li fa-check"></span> Lorem ipsum dolor sit amet</li>
+						<li><span class="fa fa-li fa-times"></span> Consectetur adipiscing elit</li> 
+						<li><span class="fa fa-li fa-play"></span> Fusce nec lacus faucibus</li> 
+						<li><span class="fa fa-li fa-gift"></span> Malesuada tortor ac ornare</li>
+						<li><span class="fa fa-li fa-facebook"></span> Integer mauris velit mattis
+							<ul class="fa-ul">
+								<li><span class="fa fa-li fa-twitter"></span> Quis purus sed pulvinar pulvinar</li> 
+								<li><span class="fa fa-li fa-linkedin"></span> Lacus ut laoreet sapien est</li>
+								<li><span class="fa fa-li fa-youtube"></span> Id placerat felis pulvinar et</li>
+								<li><span class="fa fa-li fa-stop"></span> Curabitur a augue sapien donec</li>
+							</ul>
+						</li>
+						<li><span class="fa fa-li fa-umbrella"></span> Lobortis lorem sed urna ornare</li> 
+						<li><span class="fa fa-li fa-truck"></span> Accumsan aliquam rutrum sem at</li> 
+						<li><span class="fa fa-li fa-trello"></span> Scelerisque tempor nulla diam</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>	
+	
+		
+		</div>
+		<!-- // Content END -->
+		
+		<div class="clearfix"></div>
+		<!-- // Sidebar menu & content wrapper END -->
+		
+		<div id="footer" class="hidden-print">
+			
+			<!--  Copyright Line -->
+			<div class="copy">&copy; 2012 - 2013 - <a href="http://www.mosaicpro.biz/">MosaicPro</a> - All Rights Reserved. <a href="http://themeforest.net/?ref=mosaicpro" target="_blank">Purchase FLAT PLUS on ThemeForest</a> - Current version: v1.0.0 / <a target="_blank" href="http://demo.mosaicpro.biz/flatplus/CHANGELOG.txt">changelog</a></div>
+			<!--  End Copyright Line -->
+	
+		</div>
+		<!-- // Footer END -->
+		
+	</div>
+	<!-- // Main Container Fluid END -->
+	
+
+	
+
+	<!-- Global -->
+	<script>
+	var basePath = '',
+		commonPath = 'http://demo.mosaicpro.biz/flatplus/php/assets/',
+		rootPath = 'http://demo.mosaicpro.biz/flatplus/php/',
+		DEV = false,
+		componentsPath = 'http://demo.mosaicpro.biz/flatplus/php/assets/components/';
+	
+	var primaryColor = '#cb4040',
+		dangerColor = '#b55151',
+		infoColor = '#466baf',
+		successColor = '#8baf46',
+		warningColor = '#ab7a4b',
+		inverseColor = '#45484d';
+	
+	var themerPrimaryColor = primaryColor;
+	</script>
+	
+	<script src="http://demo.mosaicpro.biz/flatplus/php/assets/components/library/bootstrap/js/bootstrap.min.js"></script>
+<script src="http://demo.mosaicpro.biz/shared/components/plugins/holder/holder.js"></script>
+<script src="http://demo.mosaicpro.biz/shared/components/plugins/slimscroll/jquery.slimscroll.js"></script>
+<script src="http://demo.mosaicpro.biz/shared/components/plugins/nicescroll/jquery.nicescroll.min.js"></script>
+<script src="http://demo.mosaicpro.biz/flatplus/php/assets/components/core/js/animations.init.js"></script>
+<script src="http://demo.mosaicpro.biz/shared/components/helpers/themer/assets/plugins/cookie/jquery.cookie.js"></script>
+<script src="http://demo.mosaicpro.biz/flatplus/php/assets/components/core/js/core.init.js"></script>	
+</body>
+
+<!-- Mirrored from demo.mosaicpro.biz/flatplus/php/admin/typography.html?lang=en by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 04 Dec 2013 08:28:27 GMT -->
+</html>

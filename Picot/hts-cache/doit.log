@@ -1,0 +1,8 @@
+http://pivot.mediumra.re/ -O "/Users/MartinBratteng/websites/Picot" -%v
+File generated automatically on Thu, 08 Oct 2015 20:51:28, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+

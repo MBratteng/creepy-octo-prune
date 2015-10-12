@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from www.desperadosrestaurant.com/history.php by HTTrack Website Copier/3.x [XR&CO'2013], Tue, 03 Dec 2013 16:11:04 GMT -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  
+    <title>Desperados Mexican Restaurant</title>
+    <meta name="description" content="A Dallas landmark and family tradition since 1976. Proud caterers of the Dallas Mavericks, the Dallas Cowboys, the Texas Rangers, and the 2011 Super Bowl" />
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="css/style.css" />
+    <link rel="stylesheet" media="all" type="text/css" href="css/dropdown.css" />
+
+    <link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+
+
+<!-- include jQuery library -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<!-- include Cycle plugin -->
+<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.menu-rotator-images').cycle({
+		fx: 'fade', 
+        speed: 2500,
+        timeout: 7000
+	});
+});
+</script>
+
+<!-- the mousewheel plugin -->
+		<script type="text/javascript" src="script/jquery.mousewheel.js"></script>
+		<!-- the jScrollPane script -->
+
+		<script type="text/javascript" src="script/jquery.jscrollpane.min.js"></script>
+
+<script type="text/javascript" id="sourcecode">
+			$(function()
+			{
+				$('.scroll-pane').jScrollPane();
+			});
+		</script>
+
+
+
+
+<script type="text/javascript"
+    src="http://maps.googleapis.com/maps/api/js?sensor=false">
+</script>
+<script type="text/javascript">
+  function initialize() {
+    var latlng = new google.maps.LatLng(32.921680, -96.735577);
+    var myOptions = {
+      zoom: 11,
+      center: latlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    var map = new google.maps.Map(document.getElementById("map_canvas"),
+        myOptions);
+
+
+var latlnguno = new google.maps.LatLng(32.845861, -96.770079);
+
+
+var contentString = '<div id="content">'+
+    '<h3>Desperados Uno</h3><p style="margin-top: 4px;">4818 Greenville Avenue<br>Dallas, TX 75206</p><br><a href="http://maps.google.com/maps?daddr=4818%20Greenville%20Avenue%20Dallas,%20TX%2075206" target="map_window"><img src="images/googlemapslink.png"></a>'+
+    '</div>';
+
+var infowindow = new google.maps.InfoWindow({
+    content: contentString
+});
+
+var marker = new google.maps.Marker({
+    position: latlnguno,
+    map: map,
+    title:"Desperados Uno"
+});
+
+google.maps.event.addListener(marker, 'click', function() {
+  infowindow.open(map,marker);
+});
+    
+
+
+var latlngdos = new google.maps.LatLng(32.973193, -96.681218);
+
+
+var contentString = '<div id="content">'+
+    '<h3>Desperados Dos</h3><p style="margin-top: 4px;">3443 W Campbell Rd<br>Garland, TX 75044</p><br><a href="http://maps.google.com/maps?daddr=3443%20W%20Campbell%20Rd%20Garland,%20TX%2075044" target="map_window"><img src="images/googlemapslink.png"></a>'+
+    '</div>';
+
+
+var infowindow2 = new google.maps.InfoWindow({
+    content: contentString
+});
+
+var marker2 = new google.maps.Marker({
+    position: latlngdos,
+    map: map,
+    title:"Desperados Dos"
+});
+
+google.maps.event.addListener(marker2, 'click', function() {
+  infowindow2.open(map,marker2);
+});
+    
+
+
+  }
+
+</script>
+
+
+
+<style type="text/css" id="page-css">
+			/* Styles specific to this particular page */
+			.scroll-pane
+			{
+				width: 100%;
+				height: 384px;
+				overflow: auto;
+			}
+			.horizontal-only
+			{
+				height: auto;
+				max-height: 384px;
+			}
+		</style>
+
+
+
+</head>
+
+<body onload="initialize()">
+
+    <!-- <div id="bg-container" style="background-image: url('images/design.png')"> -->
+    <div id="bg-container">
+        <div id="container">
+            <div id="logo"></div>
+
+            <div id="menu">
+<div class="menu">
+
+<ul>
+<li><a class="hide" href="index-2.html" style="margin-left: 0px; background-color: #7ACCC8; ">HOME</a>
+
+<li><a class="hide" href="#" style="background-color: #FDBA63;">MENU</a>
+
+
+	<ul>
+	<li><a href="menu/breakfast.pdf" title="Breakfast menu" class="yellow-down" target="new_window">BREAKFAST</a></li>
+	<li><a href="menu/lunch.pdf" title="Lunch menu" class="yellow-down" target="new_window">LUNCH</a></li>
+	<li><a href="menu/dinner.pdf" title="Dinner menu" class="yellow-down" target="new_window">DINNER</a></li>
+	</ul>
+
+</li>
+
+<li><a class="hide" href="catering.html" style="background-color: #BCA6D0; ">CATERING</a>
+</li>
+
+<li><a class="hide" href="banquets.html" style="background-color: #ED865E; ">BANQUETS</a>
+</li>
+
+<li><a class="hide" href="locations.html" style="background-color: #7ACCC8; ">LOCATIONS</a>
+</li>
+
+<li><a class="hide" href="history.html" style="background-color: #FDBA63; color: black;">HISTORY</a>
+</li>
+
+<li><a class="hide" href="contact.html" style="width: 122px; background-color: #BCA6D0; ">CONTACT</a>
+</li>
+</ul>
+
+</div>
+
+
+
+
+            </div>
+
+            <div id="content">
+
+
+                <div id="singlecol">
+                    <div id="singlecol-title" style="background-image: url('images/history-titlebar.png'); background-position: 3px 3px;">
+                    
+                    </div>
+
+                    <div style="background-color: #fff; padding: 6px;">
+                        <div class="scroll-pane">
+                    <div id="singlecol-content" style="padding-top: 22px;">
+                        <div id="history-content">
+                            <p><strong>Desperados Mexican Restaurant</strong> has been serving Dallas area residents real dishes from the heart of Mexico and traditional Tex-Mex favorites for more than 35 years. Desperados’ landmark status has been achieved through the determination and vision of Jorge Levy who, along with two partners, opened the doors to the now historic Greenville Avenue location in 1976. “They were to work in the office and in the front so I was in charge of the food.” Jorge remembers. “My Mother was an excellent cook and she and I created the original menu in her kitchen.” Since then, Jorge became the sole owner
+of Desperados and welcomed his two sons, Jake and Michael into the business as well. This family is very passionate about what they do.</p>
+
+                            <div class="goldstars"></div>
+
+<p>That passion is evident throughout many aspects of their business. The menu is large, sampling the culinary diversity of Mexico. “We were one of the first to ever serve ceviche,” Jorge boasts. And with award winning specialties like the delicious Guacamole, tangy Steak Argentina, world famous Desperados Tacos and Terlingua Champion Chili you are sure to find something scrumptious. However, the Margaritas are the driving force behind the
+Desperados lore. Their heavenly elixirs have been awarded the ‘<strong>Best Margarita in Dallas</strong>’ a total of five times with one ‘‘<strong>Best of the Best Hall of Fame Margarita</strong>’ bestowed upon them by D Magazine. Desperados has a very successful catering business, as well, becoming a preferred caterer to the Dallas Mavericks, the Dallas Cowboys, the Texas Rangers and even selected to cater the 2011 Superbowl. They have also been bottling their all natural, preservative
+free salsa since 1992 and still visit the production plant in Ft. Worth, Texas every time a new batch is made.</p>
+
+
+                            <div class="goldstars"></div>
+
+<p>Desperados has always been involved in their community. They organized and executed, for eleven years a three day charitable Cinco de Mayo celebration with amusement park rides, 5k runs, bicycle races, beach volleyball and even a beauty pageant. Additionally, with acts like Bill Tillman, Joe King Carrasco, Lou Diamond Phillips and War on stage it was indeed a celebration like no other. They also brought a city-wide Margarita
+Contest/Festival to fruition with thirty area bars and restaurants coming together to vie for the coveted title of ‘<strong>Best Margarita in Dallas</strong>.’ They have played an integral part in the success of the annual <a href="http://www.greenvilleave.org/">Greenville Avenue St. Patrick’s Parade</a>. This event is over three decades in the making, hosts 100,000 spectators, is the largest parade in the south and generates revenue for college scholarships. For ten years they have operated a food booth at the great  <a href="http://www.bigtex.com/">State Fair of Texas</a> participating in the world famous ‘<strong>Big Tex Choice Award</strong>’ and winning ‘<strong>Most Creative in 2007</strong>’ with the Deep Fried Latte. As of late they have created ‘<a href="http://www.savormexico.org/">Savor Mexico</a>’ a culinary competition involving student chefs from Mexico preparing authentic regional delights culminating in an enchanted evening of delectable proportions.</p>
+
+
+                            <div class="goldstars"></div>
+
+<p>Desperados Mexican Restaurant is regarded as one of the most successful family-owned and operated businesses in the greater Dallas area. Their longevity stands as their testament to Jorge’s vision and his family’s passion. “When you visit our restaurant you are visiting our home,” explains Jorge. That is the feel they are working to preserve, and they are undeniably successful.</p>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+
+            <div id="footer">
+                <img src="images/footer.png">
+
+                <div id="footer-text">
+                    &copy; 2011 Desperados Mexican Restaurant. All Rights Reserved. For website comments, suggestions or issues, please contact the Webmaster.
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+<!-- Mirrored from www.desperadosrestaurant.com/history.php by HTTrack Website Copier/3.x [XR&CO'2013], Tue, 03 Dec 2013 16:11:05 GMT -->
+</html>

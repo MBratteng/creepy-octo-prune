@@ -1,0 +1,8 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.studioskeie.no	TRUE	/	FALSE	1999999999	crumb	86459c9fbd
+.studioskeie.no	TRUE	/	FALSE	1999999999	ss_cid	c4e8757f-cb29-466f-8035-a84030492f83
+.studioskeie.no	TRUE	/	FALSE	1999999999	ss_cvisit	1431616740170
+www.studioskeie.no	TRUE	/	FALSE	1999999999	JSESSIONID	qRVaG7pBOtPBZlvHSS2KtZwet6qKs5fGYdisC2lFLeM-Si9NG7dBxg
+.www.studioskeie.no	TRUE	/	FALSE	1999999999	SS_MID	b4192f49-6aaa-428e-ad0c-c8bbd0ed3313i9obn85v
+

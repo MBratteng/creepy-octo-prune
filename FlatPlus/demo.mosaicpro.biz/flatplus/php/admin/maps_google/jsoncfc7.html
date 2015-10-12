@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="ie lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="ie lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="ie lt-ie9"> <![endif]-->
+<!--[if gt IE 8]> <html> <![endif]-->
+<!--[if !IE]><!--><html><!-- <![endif]-->
+
+<!-- Mirrored from demo.mosaicpro.biz/flatplus/php/admin/maps_google/json.html?lang=en&section=json by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 04 Dec 2013 08:28:47 GMT -->
+<head>
+	<title>FLAT PLUS Template (v1.0.0)</title>
+	
+	<!-- Meta -->
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+	
+	<!-- 
+	**********************************************************
+	In development, use the LESS files and the less.js compiler
+	instead of the minified CSS loaded by default.
+	**********************************************************
+	<link rel="stylesheet/less" href="../../assets/less/pages/module.admin.page.maps_google.section.json.less" />
+	-->
+	
+		<link rel="stylesheet" href="http://demo.mosaicpro.biz/flatplus/php/assets/less/pages/serveStyles.css?module=admin&amp;page=maps_google&amp;section=json&amp;url_rewrite=&amp;lang=en" />
+	
+	<script src="http://demo.mosaicpro.biz/shared/components/library/jquery/jquery.min.js"></script>
+<script src="http://demo.mosaicpro.biz/shared/components/library/jquery/jquery-migrate.min.js"></script>
+<script src="http://demo.mosaicpro.biz/shared/components/library/modernizr/modernizr.js"></script>
+<script src="http://demo.mosaicpro.biz/shared/components/plugins/less-js/less.min.js"></script>
+<script src="http://demo.mosaicpro.biz/shared/components/modules/admin/charts/flot/assets/lib/excanvas.js"></script>
+<script src="http://demo.mosaicpro.biz/shared/components/plugins/browser/ie/ie.prototype.polyfill.js"></script>	
+</head>
+<body class="sidebar-mini">
+
+		<nav class="navbar navbar-fixed-top navbar-inverse main" role="navigation">
+    <div class="navbar-header">
+        <div class="navbar-brand">
+            <div class="pull-left"><a href="#" class="toggle-button toggle-sidebar"><i class="fa fa-bars"></i></a></div>
+            <a href="#" class="appbrand">Flat+</a>
+            <!-- <div class="dropdown color-picker pull-left">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-eye-dropper"></i> </a>
+                <ul class="dropdown-menu">
+                    <li>Color</li>
+                </ul>
+            </div> -->
+            <!-- <a href="" class="btn text-regular"><i class="icon-mixer fa fa-fw"></i> Menu Color</a> -->
+        </div>
+        <button type="button" class="navbar-toggle " data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar "></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-navbar-collapse">
+        <form class="navbar-form navbar-left" role="search">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Type in here...">
+                <div class="input-group-btn">
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="hidden-tablet">Category </span><b class="caret"></b></a>
+                        <ul class="dropdown-menu pull-right list">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="input-group-btn">
+                    <button type="submit" class="btn btn-inverse"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+        </form>
+        <ul class="nav navbar-nav navbar-left">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img src="http://demo.mosaicpro.biz/flatplus/php/assets/images/people/35/8.jpg" alt="" class="img-circle"><span class="hidden-tablet"> &nbsp; Adrian Demian </span><span class="caret"></span></a>
+                <ul class="dropdown-menu list pull-right ">
+                    <li><a href="#">Your Profile <i class="fa fa-user pull-right"></i></a></li>
+                    <li><a href="#">Edit Account <i class="fa fa-pencil pull-right"></i></a></li>
+                    <li><a href="#">Get Help <i class="fa fa-question-circle pull-right"></i></a></li>
+                    <li><a href="#">Log out <i class="fa fa-sign-out pull-right"></i></a></li>
+                </ul>
+            </li>
+            <li class="user-notifications border-none">
+                <a href="#" class="dropdown-toggle text-primary" data-toggle="dropdown">  5 <i class="icon-bell-fill"></i></a>
+                <ul class="dropdown-menu user-alerts pull-right">
+                    <li class="headline">Notifications</li>
+                    <li class="innerAll">
+                        <div class="media">
+                            <i class="fa fa-user fa-2x pull-left disabled"></i>
+                            <div class="media-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                <a href="#" class="btn btn-primary btn-xs">Go now</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="innerAll">
+                        <div class="media">
+                            <i class="fa fa-file fa-2x pull-left disabled"></i>
+                            <div class="media-body">
+                                <div class="pull-right label label-default">2 days</div>
+                                <a href="#">Adrian Demian</a> <em>wrote: </em>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                                <a href="#" class="btn btn-primary btn-xs">read article</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="innerAll">
+                        <div class="media">
+                            <i class="fa fa-comments fa-2x pull-left disabled"></i>
+                            <div class="media-body">
+                                <a href="#">mosaicpro</a> <em>commented: </em>Lorem ipsum dolor sit amet, consectetur adipisicing elit 
+                                <a href="#" class="btn btn-primary btn-xs">reply </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown notification">
+                <a href="#" class="dropdown-toggle menu-icon" data-toggle="dropdown"><i class="fa fa-fw fa-envelope-o"></i><span class="badge badge-primary">2</span></a>
+                <ul class="dropdown-menu inbox">
+                    <li class="headline">Inbox</li>
+                    <li>
+                        <input type="text" class="form-control border-none" placeholder="Search Email..."/>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img src="http://demo.mosaicpro.biz/flatplus/php/assets/images/people/50/8.jpg" alt="" class="img-circle media-object"> 
+                            </a>
+                            <div class="media-body">
+                                <a href="#" class="strong text-primary"> <i class="fa fa-circle"></i> Adrian Demian</a> <span>(3)</span><span class="pull-right time-email">10:20 AM</span>
+                                <div class="clearfix"></div>
+                                Lorem ipsum dolor sit amet, consecte adipisicing elit.
+                            </div>
+                        </div>    
+                    </li>
+                    <li>
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img src="http://demo.mosaicpro.biz/flatplus/php/assets/images/people/50/3.jpg" alt="" class="img-circle media-object"> 
+                            </a>
+                            <div class="media-body">
+                                <a href="#" class="strong text-primary"> Joanne Smith</a><span>(1)</span><span class="pull-right time-email">06:48 PM</span>
+                                <div class="clearfix"></div>
+                                Lorem ipsum dolor sit amet, consecte adipisicing elit.
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img src="http://demo.mosaicpro.biz/flatplus/php/assets/images/people/50/20.jpg" alt="" class="img-circle media-object"> 
+                            </a>
+                            <div class="media-body">
+                                <a href="#" class="strong text-primary"> <i class="fa fa-circle"></i> Mister Awesome</a> <span>(7)</span><span class="pull-right time-email">04:22 PM</span>
+                                <div class="clearfix"></div>
+                                Lorem ipsum dolor sit amet, consecte adipisicing elit.
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown notification hidden-sm hidden-md">
+                <a href="#" class="dropdown-toggle menu-icon" data-toggle="dropdown"><i class="fa fa-fw fa-exclamation-circle"></i><span class="badge badge-info">2</span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Separated link</a></li>
+                </ul>
+            </li>
+             <li class="dropdown notification">
+                <a href="#" class="dropdown-toggle menu-icon" data-toggle="dropdown"><i class="fa fa-fw fa-dropbox"></i><span class="badge badge-success badge-icon"><i class="fa fa-check"></i></span></a>
+                <ul class="dropdown-menu dropbox list">
+                    <li class="headline ">
+                       <div class="row">
+                           <div class="col-md-6">
+                               Dropbox Folder
+                           </div>
+                           <div class="col-md-6">
+                               <a href="#">Settings <i class="fa fa-cog"></i></a>
+                           </div>
+                       </div>
+                    </li>
+                    <li class="clean info">RECENTLY CHANGED</li>
+                    <li>
+                        <ul class="media-list">
+                            <li class="media">
+                                <a class="pull-left" href="#">
+                                    <img class="media-object" data-src="holder.js/35x35" alt="...">
+                                    </a>
+                                    <div class="media-body">
+                                        <a class="padding-none ">Media heading</a>
+                                        <div class="clearfix"></div>
+                                        <em>59 minutes ago</em>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    <li>
+                        <ul class="media-list">
+                            <li class="media">
+                                <a class="pull-left" href="#">
+                                    <img class="media-object" data-src="holder.js/35x35" alt="...">
+                                </a>
+                                <div class="media-body">
+                                    <a class="padding-none ">Media heading</a>
+                                    <div class="clearfix"></div>
+                                    <em>59 minutes ago</em>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="media-list">
+                            <li class="media">
+                                <a class="pull-left" href="#">
+                                    <img class="media-object" data-src="holder.js/35x35" alt="...">
+                                </a>
+                                <div class="media-body">
+                                    <a class="padding-none ">Media heading</a>
+                                    <div class="clearfix"></div>
+                                    <em>59 minutes ago</em>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="media-list">
+                            <li class="media">
+                                <a class="pull-left" href="#">
+                                    <img class="media-object" data-src="holder.js/35x35" alt="...">
+                                </a>
+                                <div class="media-body">
+                                    <a class="padding-none ">Media heading</a>
+                                    <div class="clearfix"></div>
+                                    <em>59 minutes ago</em>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="http://demo.mosaicpro.biz/flatplus/php/assets//images/lang/en-flat.jpg" /></a>
+                <ul class="dropdown-menu pull-right">
+                    <li class="active"><a href="#">English</a></li>
+                    <li><a href="#">Romanian</a></li>
+                </ul>
+            </li>
+            <li><a href="#" class="menu-icon"><i class="fa fa-sign-out"></i></a></li>
+        </ul>
+    </div><!-- /.navbar-collapse -->
+</nav>
+
+	
+	<div class="sidebar sidebar-default">
+	<div class="user-profile media innerAll">
+		<a href="#" class="pull-left"><img src="http://demo.mosaicpro.biz/flatplus/php/assets/images/people/50/8.jpg" alt="" class="img-circle"><span class="badge badge-primary">2</span></a>
+		<div class="media-body">
+			<a href="#" class="strong">Adrian Demian</a>
+			<p class="text-success"><i class="fa fa-fw fa-circle"></i> Online</p>
+		</div>
+		<ul>
+			<li class="active"><a href="#"><i class="fa fa-fw fa-user"></i></a></li>
+			<li><a href="#"><i class="fa fa-fw fa-envelope"></i></a></li>
+			<li><a href="#"><i class="fa fa-fw fa-lock"></i></a></li>
+		</ul>
+	</div>
+	<div class="sidebarMenuWrapper">
+		<ul class="list-unstyled">
+			<li><a href="../index9ed2.html?lang=en"><i class="icon-open-sign"></i><span>Dashboard</span></a></li>
+			<li class="hasSubmenu">
+				<a href="#" data-target="#collapse-menu" data-toggle="collapse"><i class="icon-up-down"></i><span>Collapsible Menu</span></a>
+				<ul class="collapse" id="collapse-menu">
+					<li><a href="#">Menu item</a></li>
+					<li><a href="#">Menu item</a></li>
+					<li><a href="#">Menu item</a></li>
+					<li><a href="#">Menu item</a></li>
+				</ul>
+			</li>
+			<li><a href="../ui9ed2.html?lang=en"><i class="icon-butterfly"></i><span>Buttons &amp; Icons</span></a></li>
+			<li class="hasSubmenu">
+				<a href="#" data-target="#forms-menu" data-toggle="collapse"><i class="icon-compose"></i><span>Forms</span></a>
+				<ul class="collapse" id="forms-menu">
+					<li><a href="../form_wizards9ed2.html?lang=en">Form Wizards</a></li>
+					<li><a href="../form_elements9ed2.html?lang=en">Form Elements</a></li>
+					<li><a href="../form_validator9ed2.html?lang=en">Form Validator</a></li>
+					<li><a href="../file_managers9ed2.html?lang=en">File Managers</a></li>
+				</ul>
+			</li>
+			<li><a href="../tables9ed2.html?lang=en"><i class="icon-categories"></i><span>Tables</span></a></li>
+			<li><a href="../typography9ed2.html?lang=en"><i class="icon-paper-document"></i><span>Typography</span></a></li>
+			<li><a href="../grid9ed2.html?lang=en"><i class="icon-dial-pad"></i><span>Grid System</span></a></li>
+			<li><a href="../notifications9ed2.html?lang=en"><i class="icon-signal"></i><span>Alerts &amp; Notifications</span></a></li>
+			<li><a href="../modals9ed2.html?lang=en"><i class="icon-new-window"></i><span>Modals</span></a></li>
+			<li><a href="../widgets9ed2.html?lang=en"><i class="icon-browser"></i><span>Widgets</span></a></li>
+			<li><a href="../sliders9ed2.html?lang=en"><i class="icon-sliders"></i><span>Sliders</span></a></li>
+			<li><a href="../gallery9ed2.html?lang=en"><i class="icon-film-strip"></i><span>Media &amp; Carousels</span></a></li>
+			<li><a href="../timelines9ed2.html?lang=en"><i class="icon-manager"></i><span>Timelines</span></a></li>
+			<li><a href="../tabs9ed2.html?lang=en"><i class="icon-folder-add"></i><span>Tabs</span></a></li>
+			<li><a href="../charts9ed2.html?lang=en"><i class="icon-graph-up-1"></i><span>Charts</span></a></li>
+			<li><a href="../calendar9ed2.html?lang=en"><i class="icon-calendar-1"></i><span>Calendar</span></a></li>
+			<li class="active"><a href="../maps_google9ed2.html?lang=en"><i class="icon-map-location-fill-2"></i><span>Maps</span></a></li>
+			<li><a href="../ratings9ed2.html?lang=en"><i class="icon-tv-star"></i><span>Ratings</span></a></li>
+		</ul>
+	</div>
+</div>
+
+
+	<div id="content"><h1 class="content-heading bg-white border-bottom">Google maps</h1>
+<div class="innerAll bg-white border-bottom">
+	<ul class="menubar">
+		<li class="active"><a href="../maps_google9ed2.html?lang=en">Google Maps</a></li>
+		<li><a href="../maps_vector9ed2.html?lang=en">Vector Maps</a></li>
+	</ul>
+</div>
+
+<div class="innerAll spacing-x2">
+
+	<!-- Tabs -->
+	<div class="widget widget-tabs widget-tabs-vertical row row-merge" id="maps_google_tabs">
+		<!-- Tabs Heading -->
+		<div class="widget-head col-md-3">
+			<ul>
+				<li><a href="../maps_google9ed2.html?lang=en">Streetview with microformats</a></li>
+				<li><a href="clustering3fd0.html?lang=en&amp;section=clustering">Clustering</a></li>
+				<li><a href="extend-paginationd1c8.html?lang=en&amp;section=extend-pagination">Extend with pagination</a></li>
+				<li><a href="filtering6fac.html?lang=en&amp;section=filtering">Filtering</a></li>
+				<li><a href="geocodingf90f.html?lang=en&amp;section=geocoding">Click and drag with geo search</a></li>
+				<li class="active"><a href="jsoncfc7.html?lang=en&amp;section=json">Load markers from JSON</a></li>
+			</ul>
+		</div>
+		<!-- // Tabs Heading END -->
+		
+		<div class="widget-body col-md-9">
+		
+			<!-- Tab content -->
+			<div class="tab-content">
+			
+								
+								
+								
+								
+								
+								<!-- JSON -->
+				<h4 class="separator bottom">Loading markers from JSON</h4>
+				<div class="thumbnail"><div class="map_canvas" id="google-map-json" style="height: 400px"></div></div>
+				<!-- // JSON END -->
+								
+			</div>
+			<!-- // Tab content END -->
+			
+		</div>
+	</div>
+	<!-- // Tabs END -->
+	
+</div>
+
+	
+	
+		
+		</div>
+		<!-- // Content END -->
+		
+		<div class="clearfix"></div>
+		<!-- // Sidebar menu & content wrapper END -->
+		
+		<div id="footer" class="hidden-print">
+			
+			<!--  Copyright Line -->
+			<div class="copy">&copy; 2012 - 2013 - <a href="http://www.mosaicpro.biz/">MosaicPro</a> - All Rights Reserved. <a href="http://themeforest.net/?ref=mosaicpro" target="_blank">Purchase FLAT PLUS on ThemeForest</a> - Current version: v1.0.0 / <a target="_blank" href="http://demo.mosaicpro.biz/flatplus/CHANGELOG.txt">changelog</a></div>
+			<!--  End Copyright Line -->
+	
+		</div>
+		<!-- // Footer END -->
+		
+	</div>
+	<!-- // Main Container Fluid END -->
+	
+
+	
+
+	<!-- Global -->
+	<script>
+	var basePath = '../index.html',
+		commonPath = 'http://demo.mosaicpro.biz/flatplus/php/assets/',
+		rootPath = 'http://demo.mosaicpro.biz/flatplus/php/',
+		DEV = false,
+		componentsPath = 'http://demo.mosaicpro.biz/flatplus/php/assets/components/';
+	
+	var primaryColor = '#cb4040',
+		dangerColor = '#b55151',
+		infoColor = '#466baf',
+		successColor = '#8baf46',
+		warningColor = '#ab7a4b',
+		inverseColor = '#45484d';
+	
+	var themerPrimaryColor = primaryColor;
+	</script>
+	
+	<script src="http://demo.mosaicpro.biz/flatplus/php/assets/components/library/bootstrap/js/bootstrap.min.js"></script>
+<script src="http://demo.mosaicpro.biz/shared/components/plugins/holder/holder.js"></script>
+<script src="http://demo.mosaicpro.biz/shared/components/plugins/slimscroll/jquery.slimscroll.js"></script>
+<script src="http://demo.mosaicpro.biz/shared/components/plugins/nicescroll/jquery.nicescroll.min.js"></script>
+<script src="http://demo.mosaicpro.biz/flatplus/php/assets/components/core/js/animations.init.js"></script>
+<script src="http://demo.mosaicpro.biz/shared/components/modules/admin/modals/assets/js/bootbox.min.js"></script>
+<script src="http://demo.mosaicpro.biz/flatplus/php/assets/components/modules/admin/maps/google/assets/custom/maps-google.init.js"></script>
+<script src="http://maps.google.com/maps/api/js?sensor=true&amp;callback=initGoogleMaps"></script>
+<script src="http://demo.mosaicpro.biz/shared/components/helpers/themer/assets/plugins/cookie/jquery.cookie.js"></script>
+<script src="http://demo.mosaicpro.biz/flatplus/php/assets/components/core/js/core.init.js"></script>	
+</body>
+
+<!-- Mirrored from demo.mosaicpro.biz/flatplus/php/admin/maps_google/json.html?lang=en&section=json by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 04 Dec 2013 08:28:47 GMT -->
+</html>

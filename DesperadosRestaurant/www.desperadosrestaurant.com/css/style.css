@@ -1,0 +1,371 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+
+body {
+    line-height: 1;
+}
+
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+:focus {
+    outline: 0;
+}
+
+ins {
+    text-decoration: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+/************** General Styles *****************/
+a{ text-decoration:underline; color: #3B2313;}
+strong { color: #3B2313; font-weight: normal;}
+body { 
+    background:#3C2415; 
+    color:#525354; 
+    font:11px/1.3em Arial, Helvetica, "Trebuchet MS", sans-serif
+}
+
+h1,h2,h3,h4,h5,h6{ font-family:Arial, Georgia, "Times New Roman", Times, serif; }
+h1{ font-size:30px;}
+h2{ font-size:24px;}
+h3{ font-size:18px;}
+h4{ font-size:14px;}
+h5{ font-size:12px;}
+h6{ font-size:10px;}
+
+
+
+
+
+
+
+#bg-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    background-image: url('../images/bg.jpg');
+    height: 769px;
+}
+
+#container {
+    margin-left: 64px;
+    margin-right: 62px;
+    width: 896px;
+    padding-top: 41px;
+}
+
+
+#logo {
+    position: relative;
+    left: -6px;
+    background-image: url('../images/logo.png');
+    width: 903px;
+    height: 93px;
+}
+
+#menu {
+    height: 28px;
+    margin-top: 19px;
+    width: 896px;
+}
+
+
+#col1 {
+    float: left;
+    width: 530px;
+    margin-bottom: 15px;
+}
+
+#col2 {
+    float: right;
+    width: 353px; 
+    margin-bottom: 15px;
+}
+
+#content {
+    margin-top: 18px;
+}
+
+
+#menu-rotator {
+    float: left;
+    margin-right: 12px;
+    height: 435px;
+    width: 530px;
+}
+
+#menu-rotator-title {
+    background-image: url('../images/menuheader.png');  
+    width: 530px;
+    height: 42px;
+}
+
+#singlecol-title{
+    width: 896px;
+    height: 42px;
+    background-color: #3B2313;
+    background-repeat: no-repeat;
+    margin-bottom: 4px;
+}
+
+#news {
+	border: 7px solid #79CCC8;
+}
+
+#news-headerimage {
+    width: 339px;
+    height: 71px;
+    background-color: #79CCC8;
+}
+
+#news-content {
+    padding: 14px;
+    background-color: white;
+    height: 171px;
+    overflow: hidden;
+    color: #808285;
+    line-height: 13px;
+    font-size: 0.9em;
+}
+
+#news-content p {
+	margin-bottom: 14px;
+}
+
+span.news-content-header {
+	color: #231F20;
+	font-size: 1em;
+}
+
+#news-content strong {
+    color: #E87845;
+    font-weight: normal;
+}
+
+#singlecol-content {
+    padding: 36px;
+    background-color: white;
+}
+
+#facebook {
+    margin-top: 11px;
+}
+
+#footer {
+    margin-top: 12px;
+}
+
+#footer-text {
+    text-align: center;
+    font-size: 0.9em;
+    color: #BA6938;
+    margin-top: 6px;
+}
+
+
+#catering-col1 {
+    float: left;
+    width: 360px;
+}
+
+#catering-emb {
+    float: left;
+    width: 35px;
+    margin-left: 28px;
+}
+
+#catering-col2 {
+    float: right;
+    width: 366px;
+}
+
+#catering-col1 p, #catering-col2 p {
+    margin-top: 16px;
+    margin-left: 2px;
+    font-size: 1em;
+    line-height: 1.4em;
+}
+
+#catering-footer {
+    width: 692px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -18px;
+    height: 32px;
+    clear: both;
+}
+
+#banquets-title {
+    background-image: url('../images/banquets-micasa.png');
+    width: 818px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#banquets-content p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;  
+    font-size: 1em;
+    text-align: center;
+    line-height: 1.9em;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+
+
+
+
+#locations-title {
+    background-image: url('../images/locations-comeseeussoon.png');
+    width: 818px;
+    height: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6px;
+}
+
+#locations-content {
+    border: 1px solid #79CCC8;
+    padding: 40px 82px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 646px;
+}
+
+#locations-col1 {
+    float: left;
+    text-align: center;
+}
+
+#locations-col2 {
+    float: right;
+    text-align: center;
+}
+
+#locations-col1 p, #locations-col2 p {
+    line-height: 1.7em;
+    margin-top: 18px;
+}
+
+div.locations-resttitle {
+    font-size: 1.2em;
+    margin-bottom: 6px;
+    color: #3B2313;
+}
+
+#locations-cardinal {
+    float: left;
+    margin-left: 56px;
+    margin-right: 8px;
+    margin-top: 16px;
+}
+
+#contact-title {
+    background-image: url('../images/mailinglist-title.png');
+    background-color: #BCA7D0;
+    width: 353px;
+    height: 42px;
+    background-repeat: no-repeat;
+}
+
+#contact-col1 {
+    float: left;
+    width: 144px;
+    padding: 28px;
+}
+
+#contact-col1 p, #contact-col2 p {
+    margin-top: 18px;
+}
+
+#contact-emb {
+    float: left;
+    margin-top: 7px;
+    margin-right: 12px;
+}
+
+#contact-col2 {
+    float: left;
+    width: 144px;
+    padding: 28px 0px 0px 32px;
+}
+
+#contact-stars {
+    background-image: url('../images/6graystars.png');
+    width: 364px;
+    height: 39px;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact-content {
+    padding: 18px 18px 18px 21px;
+    background-color: white;
+    height: 161px;
+}
+
+#contact-content p {
+    line-height: 1.4em;
+}
+
+#history-content {
+    text-align: center;
+    margin-right: 22px;
+}
+
+#history-content p {
+    line-height: 1.6em;
+}
+
+div.goldstars {
+    background-image: url('../images/goldstars.png');
+    width: 205px;
+    height: 26px;
+    margin: 6px auto;
+}

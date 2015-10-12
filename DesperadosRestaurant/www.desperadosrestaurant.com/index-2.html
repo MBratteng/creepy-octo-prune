@@ -1,0 +1,241 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from www.desperadosrestaurant.com/index.php by HTTrack Website Copier/3.x [XR&CO'2013], Tue, 03 Dec 2013 16:09:37 GMT -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  
+    <title>Desperados Mexican Restaurant</title>
+    <meta name="description" content="A Dallas landmark and family tradition since 1976. Proud caterers of the Dallas Mavericks, the Dallas Cowboys, the Texas Rangers, and the 2011 Super Bowl" />
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="css/style.css" />
+    <link rel="stylesheet" media="all" type="text/css" href="css/dropdown.css" />
+
+    <link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+
+
+<!-- include jQuery library -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<!-- include Cycle plugin -->
+<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.menu-rotator-images').cycle({
+		fx: 'fade', 
+        speed: 2500,
+        timeout: 7000
+	});
+});
+</script>
+
+<!-- the mousewheel plugin -->
+		<script type="text/javascript" src="script/jquery.mousewheel.js"></script>
+		<!-- the jScrollPane script -->
+
+		<script type="text/javascript" src="script/jquery.jscrollpane.min.js"></script>
+
+<script type="text/javascript" id="sourcecode">
+			$(function()
+			{
+				$('.scroll-pane').jScrollPane();
+			});
+		</script>
+
+
+
+
+<script type="text/javascript"
+    src="http://maps.googleapis.com/maps/api/js?sensor=false">
+</script>
+<script type="text/javascript">
+  function initialize() {
+    var latlng = new google.maps.LatLng(32.921680, -96.735577);
+    var myOptions = {
+      zoom: 11,
+      center: latlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    var map = new google.maps.Map(document.getElementById("map_canvas"),
+        myOptions);
+
+
+var latlnguno = new google.maps.LatLng(32.845861, -96.770079);
+
+
+var contentString = '<div id="content">'+
+    '<h3>Desperados Uno</h3><p style="margin-top: 4px;">4818 Greenville Avenue<br>Dallas, TX 75206</p><br><a href="http://maps.google.com/maps?daddr=4818%20Greenville%20Avenue%20Dallas,%20TX%2075206" target="map_window"><img src="images/googlemapslink.png"></a>'+
+    '</div>';
+
+var infowindow = new google.maps.InfoWindow({
+    content: contentString
+});
+
+var marker = new google.maps.Marker({
+    position: latlnguno,
+    map: map,
+    title:"Desperados Uno"
+});
+
+google.maps.event.addListener(marker, 'click', function() {
+  infowindow.open(map,marker);
+});
+    
+
+
+var latlngdos = new google.maps.LatLng(32.973193, -96.681218);
+
+
+var contentString = '<div id="content">'+
+    '<h3>Desperados Dos</h3><p style="margin-top: 4px;">3443 W Campbell Rd<br>Garland, TX 75044</p><br><a href="http://maps.google.com/maps?daddr=3443%20W%20Campbell%20Rd%20Garland,%20TX%2075044" target="map_window"><img src="images/googlemapslink.png"></a>'+
+    '</div>';
+
+
+var infowindow2 = new google.maps.InfoWindow({
+    content: contentString
+});
+
+var marker2 = new google.maps.Marker({
+    position: latlngdos,
+    map: map,
+    title:"Desperados Dos"
+});
+
+google.maps.event.addListener(marker2, 'click', function() {
+  infowindow2.open(map,marker2);
+});
+    
+
+
+  }
+
+</script>
+
+
+
+<style type="text/css" id="page-css">
+			/* Styles specific to this particular page */
+			.scroll-pane
+			{
+				width: 100%;
+				height: 384px;
+				overflow: auto;
+			}
+			.horizontal-only
+			{
+				height: auto;
+				max-height: 384px;
+			}
+		</style>
+
+
+
+</head>
+
+<body onload="initialize()">
+
+    <!-- <div id="bg-container" style="background-image: url('images/design.png')"> -->
+    <div id="bg-container">
+        <div id="container">
+            <div id="logo"></div>
+
+            <div id="menu">
+<div class="menu">
+
+<ul>
+<li><a class="hide" href="index-2.html" style="margin-left: 0px; background-color: #7ACCC8; color: black;">HOME</a>
+
+<li><a class="hide" href="#" style="background-color: #FDBA63;">MENU</a>
+
+
+	<ul>
+	<li><a href="menu/breakfast.pdf" title="Breakfast menu" class="yellow-down" target="new_window">BREAKFAST</a></li>
+	<li><a href="menu/lunch.pdf" title="Lunch menu" class="yellow-down" target="new_window">LUNCH</a></li>
+	<li><a href="menu/dinner.pdf" title="Dinner menu" class="yellow-down" target="new_window">DINNER</a></li>
+	</ul>
+
+</li>
+
+<li><a class="hide" href="catering.html" style="background-color: #BCA6D0; ">CATERING</a>
+</li>
+
+<li><a class="hide" href="banquets.html" style="background-color: #ED865E; ">BANQUETS</a>
+</li>
+
+<li><a class="hide" href="locations.html" style="background-color: #7ACCC8; ">LOCATIONS</a>
+</li>
+
+<li><a class="hide" href="history.html" style="background-color: #FDBA63; ">HISTORY</a>
+</li>
+
+<li><a class="hide" href="contact.html" style="width: 122px; background-color: #BCA6D0; ">CONTACT</a>
+</li>
+</ul>
+
+</div>
+
+
+
+
+            </div>
+
+            <div id="content">
+
+
+                <div id="col1">
+                    <div id="menu-rotator">
+                        <div id="menu-rotator-title">
+                    
+                        </div>
+
+                        <div class="menu-rotator-images">
+                            <img src="images/home-rotator/Home_Slide_Marg_LO.jpg" width="530" height="393" />
+                            <img src="images/home-rotator/Home_Slide_Taco_LO.jpg" width="530" height="393" />
+                            <img src="images/home-rotator/Home_Slide_Dess_LO.jpg" width="530" height="393" />
+                        </div>
+                    </div>
+                </div>
+
+                <div id="col2">
+                    <div id="news">
+                        <div id="news-headerimage">
+                            <img src="images/whatshappening.png" border="0" width="339" height="71">
+                        </div>
+
+                        <div id="news-content">
+                            <p>
+                    
+							<span class="news-content-header">CONGRATULATIONS JORGE!</span><br>
+To help the restaurant industry celebrate its successes and to inspire others, the National Restaurant Association and PepsiCo Foodservice created the Faces of Diversity award. This award promotes the importance of diversity and inclusion by raising awareness about the important role restaurants play in providing a ladder of opportunity for millions of Americans who, through hard work and determination, have realized the American dream.  This year we are very happy to announce that Desperados’ owner and founder, Jorge Levy, is the recipient of the Faces of Diversity award and we are all very proud.  Congratulations Jorge.
+							</p>	
+							
+							<p>
+                           
+							<span class="news-content-header">CLICK BELOW TO SEE THE VIDEO</span><br>
+<a href="http://www.youtube.com/watch?v=n8DdOpZXWGI">Watch the Clip</a>
+
+</p>
+							
+							
+						</div>
+                    </div>
+
+                    <div id="facebook">
+                        <a href="https://www.facebook.com/pages/Desperados-Mexican-Restaurant/103065319765179" target="fbwindow"><img src="images/facebook.png" border="0"></a>
+                    </div>
+                </div>
+            
+            </div>
+
+            <div id="footer">
+                <img src="images/footer.png">
+
+                <div id="footer-text">
+                    &copy; 2011 Desperados Mexican Restaurant. All Rights Reserved. For website comments, suggestions or issues, please contact the Webmaster.
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+<!-- Mirrored from www.desperadosrestaurant.com/index.php by HTTrack Website Copier/3.x [XR&CO'2013], Tue, 03 Dec 2013 16:10:33 GMT -->
+</html>

@@ -1,0 +1,8 @@
+http://mdo.github.io/code-guide/ -O "/Users/TheViking/websites/Code Guide" -%v
+File generated automatically on Thu, 27 Mar 2014 15:34:00, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+

@@ -1,0 +1,24 @@
+HTTrack3.48-21 launched on Thu, 14 May 2015 17:18:21 at http://www.studioskeie.no/
+(winhttrack http://www.studioskeie.no/ -O "/Users/MartinBratteng/websites/studioskeie" -%v )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:18:31	Error: 	"Not Found" (404) at link www.studioskeie.no/GET (from www.studioskeie.no/)
+17:19:01	Error: 	"Unauthorized" (401) at link www.studioskeie.no/portfolio/ (from www.studioskeie.no/)
+17:19:01	Error: 	"Not Found" (404) at link www.studioskeie.no/grafisk-design/GET (from www.studioskeie.no/grafisk-design/)
+17:19:01	Error: 	"Not Found" (404) at link www.studioskeie.no/logodesign-og-identitetsdesign/GET (from www.studioskeie.no/logodesign-og-identitetsdesign/)
+17:19:01	Error: 	"Not Found" (404) at link www.studioskeie.no/markedsmateriell-og-reklamekampanje/GET (from www.studioskeie.no/markedsmateriell-og-reklamekampanje/)
+17:19:01	Error: 	"Not Found" (404) at link www.studioskeie.no/brosjyre-design-kataloger-og-arsrapporter/GET (from www.studioskeie.no/brosjyre-design-kataloger-og-arsrapporter/)
+17:19:01	Error: 	"Not Found" (404) at link www.studioskeie.no/web-design/GET (from www.studioskeie.no/web-design/)
+17:19:01	Error: 	"Not Found" (404) at link www.studioskeie.no/reklamefotograf-og-illustrator/GET (from www.studioskeie.no/reklamefotograf-og-illustrator/)
+17:19:01	Error: 	"Not Found" (404) at link www.studioskeie.no/trykksaker-og-fargestyring/GET (from www.studioskeie.no/trykksaker-og-fargestyring/)
+17:19:01	Error: 	"Not Found" (404) at link www.studioskeie.no/reklametekst/GET (from www.studioskeie.no/reklametekst/)
+17:19:01	Error: 	"Not Found" (404) at link www.studioskeie.no/aktuelt/GET (from www.studioskeie.no/aktuelt/)
+17:19:02	Error: 	"Not Found" (404) at link www.studioskeie.no/kontakt-oss/GET (from www.studioskeie.no/kontakt-oss/)
+17:19:02	Error: 	"Not Found" (404) at link www.studioskeie.no/aktuelt/2015/2/5/GET (from www.studioskeie.no/aktuelt/2015/2/5/vi-ser-deg-gjerne)
+
+HTTrack Website Copier/3.48-21 mirror complete in 41 seconds : 29 links scanned, 15 files written (2176398 bytes overall) [556190 bytes received at 13565 bytes/sec], 2524824 bytes transferred using HTTP compression in 25 files, ratio 11%
+(13 errors, 0 warnings, 0 messages)

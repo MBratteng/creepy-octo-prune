@@ -1,0 +1,35 @@
+HTTrack3.48-21 launched on Thu, 08 Oct 2015 20:51:28 at http://pivot.mediumra.re/
+(winhttrack http://pivot.mediumra.re/ -O "/Users/MartinBratteng/websites/Picot" -%v )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+20:58:44	Error: 	"Not Found" (404) at link pivot.mediumra.re/fonts/glyphicons-halflings-regular.eot (from pivot.mediumra.re/css/bootstrap.min.css)
+20:58:44	Error: 	"Not Found" (404) at link pivot.mediumra.re/fonts/glyphicons-halflings-regular.eot? (from pivot.mediumra.re/css/bootstrap.min.css)
+20:58:44	Error: 	"Not Found" (404) at link pivot.mediumra.re/fonts/glyphicons-halflings-regular.woff (from pivot.mediumra.re/css/bootstrap.min.css)
+20:58:44	Error: 	"Not Found" (404) at link pivot.mediumra.re/fonts/glyphicons-halflings-regular.ttf (from pivot.mediumra.re/css/bootstrap.min.css)
+20:58:44	Error: 	"Not Found" (404) at link pivot.mediumra.re/fonts/glyphicons-halflings-regular.svg (from pivot.mediumra.re/css/bootstrap.min.css)
+20:58:44	Error: 	"Not Found" (404) at link pivot.mediumra.re/"//cdn-images.mailchimp.com/embedcode/classic-081711.css" (from pivot.mediumra.re/launching-soon-2.html)
+20:58:44	Error: 	"Not Found" (404) at link pivot.mediumra.re/"//cdn-images.mailchimp.com/embedcode/slim-081711.css" (from pivot.mediumra.re/launching-soon-3.html)
+21:00:09	Error: 	"Not Found" (404) at link pivot.mediumra.re/variant/blog-single.html (from pivot.mediumra.re/variant/builder.html)
+21:00:09	Error: 	"Not Found" (404) at link pivot.mediumra.re/variant/project-single.html (from pivot.mediumra.re/variant/builder.html)
+21:00:09	Error: 	"Not Found" (404) at link pivot.mediumra.re/variant/login.html (from pivot.mediumra.re/variant/builder.html)
+21:00:09	Error: 	"Not Found" (404) at link pivot.mediumra.re/variant/index.html (from pivot.mediumra.re/variant/builder.html)
+21:00:09	Error: 	"Not Found" (404) at link pivot.mediumra.re/variant/contact.html (from pivot.mediumra.re/variant/builder.html)
+21:00:10	Error: 	"Not Found" (404) at link pivot.mediumra.re/variant/fonts/variant-icons.eot (from pivot.mediumra.re/variant/css/variant-icons.css)
+21:00:10	Error: 	"Not Found" (404) at link pivot.mediumra.re/variant/fonts/variant-icons.eot? (from pivot.mediumra.re/variant/css/variant-icons.css)
+21:00:10	Error: 	"Not Found" (404) at link pivot.mediumra.re/variant/theme/fonts/glyphicons-halflings-regular.eot (from pivot.mediumra.re/variant/theme/css/bootstrap.min.css)
+21:00:10	Error: 	"Not Found" (404) at link pivot.mediumra.re/variant/theme/fonts/glyphicons-halflings-regular.eot? (from pivot.mediumra.re/variant/theme/css/bootstrap.min.css)
+21:00:10	Error: 	"Not Found" (404) at link pivot.mediumra.re/variant/theme/fonts/glyphicons-halflings-regular.woff (from pivot.mediumra.re/variant/theme/css/bootstrap.min.css)
+21:00:10	Error: 	"Not Found" (404) at link pivot.mediumra.re/variant/theme/fonts/glyphicons-halflings-regular.ttf (from pivot.mediumra.re/variant/theme/css/bootstrap.min.css)
+21:00:10	Error: 	"Not Found" (404) at link pivot.mediumra.re/variant/theme/fonts/glyphicons-halflings-regular.svg (from pivot.mediumra.re/variant/theme/css/bootstrap.min.css)
+21:00:10	Error: 	"Not Found" (404) at link pivot.mediumra.re/img/ (from pivot.mediumra.re/variant/js/init.js)
+21:00:10	Error: 	"Not Found" (404) at link pivot.mediumra.re/variant/img/ (from pivot.mediumra.re/variant/js/init.js)
+21:00:11	Error: 	"Not Found" (404) at link pivot.mediumra.re/video/ (from pivot.mediumra.re/variant/js/init.js)
+21:00:11	Error: 	"Not Found" (404) at link pivot.mediumra.re/variant/video/ (from pivot.mediumra.re/variant/js/init.js)
+21:00:11	Error: 	"Not Found" (404) at link pivot.mediumra.re/variant/GET (from pivot.mediumra.re/variant/js/init.js)
+
+HTTrack Website Copier/3.48-21 mirror complete in 8 minutes 43 seconds : 248 links scanned, 223 files written (15215520 bytes overall) [12107233 bytes received at 23149 bytes/sec], 4409038 bytes transferred using HTTP compression in 118 files, ratio 27%, 6.8 requests per connection
+(24 errors, 0 warnings, 0 messages)

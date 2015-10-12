@@ -1,0 +1,120 @@
+HTTrack3.47-27 launched on Sat, 23 Nov 2013 10:33:55 at http://withemes.com/norris/
+(winhttrack http://withemes.com/norris/ -O "/Users/TheViking/websites/Norris" -%v )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:39:22	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/wp-content/plugins/mailchimp-for-wp/assets/css/css.php?checkbox=1&form=1&ver=1.4.1 (from withemes.com/norris/)
+10:42:11	Warning: 	Moved Permanently for withemes.com/norris/?p=103
+10:42:11	Warning: 	File has moved from withemes.com/norris/?p=103 to http://withemes.com/norris/
+10:42:16	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/wp-content/themes/norris/images/sidrbg/nami_@2X.png (from withemes.com/norris/)
+10:42:16	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/wp-content/themes/norris/images/logo.png (from withemes.com/norris/)
+10:44:34	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/?demo=13 (from withemes.com/norris/)
+10:45:24	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/portfolio/portfolio-2-columns/ (from withemes.com/norris/)
+10:45:30	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/portfolio/portfolio-4-columns/ (from withemes.com/norris/)
+10:45:31	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/wp-content/uploads/2013/10/brand2.png (from withemes.com/norris/)
+10:45:35	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/wp-content/plugins/wi-portfolio/js/jquery.waitforimages.js?ver=1.0 (from withemes.com/norris/)
+10:45:36	Error: 	"Not Found" (404) at link withemes.com/norris/wp-content/plugins/wi-portfolio/css/bootstrap-responsive.min.css (from withemes.com/norris/wp-content/plugins/wi-portfolio/css/responsive.css?ver=3.7.1)
+10:45:36	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/wp-content/plugins/wi-portfolio/images/loading.gif (from withemes.com/norris/wp-content/plugins/wi-portfolio/css/colorbox.css?ver=3.7.1)
+10:45:37	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/wp-content/plugins/wi-shortcodes/includes/images/next.png (from withemes.com/norris/wp-content/plugins/wi-shortcodes/includes/css/shortcodes.css?ver=3.7.1)
+10:45:38	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/wp-content/themes/norris/css/normalize.css (from withemes.com/norris/wp-content/themes/norris/style.css?ver=3.7.1)
+10:46:00	Error: 	"Not Found" (404) at link withemes.com/norris/wp-content/themes/images/wooden.jpg (from withemes.com/norris/wp-content/themes/norris/style.css?ver=3.7.1)
+10:46:00	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/wp-content/themes/norris/images/next.png (from withemes.com/norris/wp-content/themes/norris/style.css?ver=3.7.1)
+10:46:00	Error: 	"Not Found" (404) at link withemes.com/norris/wp-content/themes/norris/images/white-line@2px.png (from withemes.com/norris/wp-content/themes/norris/style.css?ver=3.7.1)
+10:46:00	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/wp-content/themes/norris/images/white-rhombus-small@2x.png (from withemes.com/norris/wp-content/themes/norris/style.css?ver=3.7.1)
+10:46:00	Error: 	"Not Found" (404) at link withemes.com/norris/wp-content/themes/norris/images/bg-black.png (from withemes.com/norris/wp-content/themes/norris/css/supersized.css?ver=3.7.1)
+10:46:00	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/wp-content/themes/norris/images/thumb-back.png (from withemes.com/norris/wp-content/themes/norris/css/supersized.css?ver=3.7.1)
+10:46:01	Error: 	"Not Found" (404) at link withemes.com/norris/wp-content/themes/norris/images/thumb-forward.png (from withemes.com/norris/wp-content/themes/norris/css/supersized.css?ver=3.7.1)
+10:46:09	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/category/music/ (from withemes.com/norris/blog/)
+10:48:01	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/vertical-image/ (from withemes.com/norris/blog/)
+10:48:02	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/audio-post/ (from withemes.com/norris/blog/)
+10:49:01	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/category/design/ (from withemes.com/norris/blog/)
+10:49:13	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/2013/10/ (from withemes.com/norris/blog/)
+10:49:14	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/tag/audio/ (from withemes.com/norris/blog/)
+10:50:05	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/tag/human/ (from withemes.com/norris/blog/)
+10:50:12	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/tag/nature/ (from withemes.com/norris/blog/)
+10:51:04	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/?p=165 (from withemes.com/norris/shortcodes/)
+10:51:07	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/?demo=13 (from withemes.com/norris/)
+10:51:08	Warning: 	Moved Permanently for withemes.com/norris/?p=225
+10:51:08	Warning: 	File has moved from withemes.com/norris/?p=225 to http://withemes.com/norris/portfolio/portfolio-style-2/
+10:52:00	Warning: 	Moved Permanently for withemes.com/norris/?p=236
+10:52:00	Warning: 	File has moved from withemes.com/norris/?p=236 to http://withemes.com/norris/portfolio/portfolio-no-crop/
+10:52:01	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/portfolio/portfolio-2-columns/ (from withemes.com/norris/)
+10:53:03	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/?p=76 (from withemes.com/norris/portfolio/)
+10:53:06	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/wp-content/uploads/2013/10/brand2.png (from withemes.com/norris/)
+10:53:07	Error: 	"Not Found" (404) at link withemes.com/norris/wp-content/plugins/wi-portfolio/images/bg_direction_nav.png (from withemes.com/norris/wp-content/plugins/wi-portfolio/css/flexslider.css?ver=3.7.1)
+10:53:13	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/wp-content/themes/norris/css/icomoon/icomoon.eot? (from withemes.com/norris/wp-content/themes/norris/css/icomoon.css)
+10:53:14	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/wp-content/themes/norris/images/white-rhombus-small@2x.png (from withemes.com/norris/wp-content/themes/norris/style.css?ver=3.7.1)
+10:53:15	Error: 	"Not Found" (404) at link withemes.com/norris/wp-content/themes/norris/images/thumb-back.png (from withemes.com/norris/wp-content/themes/norris/css/supersized.css?ver=3.7.1)
+10:53:15	Warning: 	Moved Permanently for withemes.com/norris/?p=9
+10:53:15	Warning: 	File has moved from withemes.com/norris/?p=9 to http://withemes.com/norris/this-is-a-standard-post/
+10:53:16	Warning: 	Link withemes.com/norris/this-is-a-standard-post/?replytocom=2 not scanned (follow robots meta tag)
+10:53:16	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/this-is-a-standard-post/?replytocom=4 (from withemes.com/norris/this-is-a-standard-post/)
+10:53:16	Warning: 	Link withemes.com/norris/this-is-a-standard-post/?replytocom=5 not scanned (follow robots meta tag)
+10:53:18	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/lorem-ipsum-dolor-sit-amet/ (from withemes.com/norris/category/world/)
+10:53:32	Warning: 	Moved Permanently for withemes.com/norris/?p=35
+10:53:32	Warning: 	File has moved from withemes.com/norris/?p=35 to http://withemes.com/norris/format-gallery/
+10:53:32	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/post-formar-link/ (from withemes.com/norris/category/format/)
+10:53:34	Warning: 	Moved Permanently for withemes.com/norris/?p=27
+10:53:34	Warning: 	File has moved from withemes.com/norris/?p=27 to http://withemes.com/norris/video-post-format/
+10:53:50	Warning: 	Moved Permanently for withemes.com/norris/blog/page/1/
+10:53:50	Warning: 	File has moved from withemes.com/norris/blog/page/1/ to http://withemes.com/norris/blog/
+10:53:50	Warning: 	Moved Permanently for withemes.com/norris/?p=36
+10:53:50	Warning: 	File has moved from withemes.com/norris/?p=36 to http://withemes.com/norris/post-format-quote/
+10:54:44	Warning: 	Moved Permanently for withemes.com/norris/?p=165
+10:54:44	Warning: 	File has moved from withemes.com/norris/?p=165 to http://withemes.com/norris/shortcodes/
+10:54:52	Warning: 	Moved Permanently for withemes.com/norris/?p=256
+10:54:52	Warning: 	File has moved from withemes.com/norris/?p=256 to http://withemes.com/norris/test-youtube-video/
+10:54:58	Warning: 	Moved Permanently for withemes.com/norris/?p=68
+10:54:58	Warning: 	File has moved from withemes.com/norris/?p=68 to http://withemes.com/norris/services/
+10:55:00	Warning: 	Moved Permanently for withemes.com/norris/?p=78
+10:55:00	Warning: 	File has moved from withemes.com/norris/?p=78 to http://withemes.com/norris/pricing/
+10:55:00	Warning: 	Moved Permanently for withemes.com/norris/?p=76
+10:55:00	Warning: 	File has moved from withemes.com/norris/?p=76 to http://withemes.com/norris/portfolio/
+10:55:01	Warning: 	Moved Permanently for withemes.com/norris/?p=233
+10:55:01	Warning: 	File has moved from withemes.com/norris/?p=233 to http://withemes.com/norris/portfolio/portfolio-4-columns/
+10:55:07	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/wp-content/themes/norris/css/icomoon/icomoon.eot? (from withemes.com/norris/wp-content/themes/norris/css/icomoon.css)
+10:55:08	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/wp-content/themes/norris/images/next.png (from !/norris/wp-content/themes/norris/images/next.png)
+10:55:10	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/author/admin/page/2/ (from withemes.com/norris/author/admin/)
+10:55:11	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/this-is-a-standard-post/?replytocom=4 (from withemes.com/norris/this-is-a-standard-post/)
+10:55:37	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/?p=187 (from withemes.com/norris/vertical-image/)
+10:55:38	Warning: 	Moved Permanently for withemes.com/norris/?p=30
+10:55:38	Warning: 	File has moved from withemes.com/norris/?p=30 to http://withemes.com/norris/audio-post/
+10:57:23	Warning: 	Moved Permanently for withemes.com/norris/?p=272
+10:57:23	Warning: 	File has moved from withemes.com/norris/?p=272 to http://withemes.com/norris/page-with-sidebar/
+10:57:24	Warning: 	Moved Permanently for withemes.com/norris/?p=228
+10:57:24	Warning: 	File has moved from withemes.com/norris/?p=228 to http://withemes.com/norris/portfolio/portfolio-2-columns/
+10:57:30	Warning: 	Moved Permanently for withemes.com/norris/?p=49
+10:57:30	Warning: 	File has moved from withemes.com/norris/?p=49 to http://withemes.com/norris/our-team/
+10:57:30	Warning: 	Moved Permanently for withemes.com/norris/?p=85
+10:57:30	Warning: 	File has moved from withemes.com/norris/?p=85 to http://withemes.com/norris/contact/
+10:57:32	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/wp-content/plugins/wi-portfolio/js/jquery.waitforimages.js?ver=1.0 (from !/norris/wp-content/plugins/wi-portfolio/js/jquery.waitforimages.js?ver=1.0)
+10:57:35	Error: 	"No data (connection closed)" (-4) after 2 retries at link withemes.com/norris/wp-content/themes/norris/images/next.png (from !/norris/wp-content/themes/norris/images/next.png)
+10:57:48	Warning: 	Link withemes.com/norris/this-is-a-standard-post/?replytocom=4 not scanned (follow robots meta tag)
+10:57:48	Warning: 	Moved Permanently for withemes.com/norris/?p=41
+10:57:48	Warning: 	File has moved from withemes.com/norris/?p=41 to http://withemes.com/norris/lorem-ipsum-dolor-sit-amet/
+10:57:48	Warning: 	Moved Permanently for withemes.com/norris/?p=32
+10:57:48	Warning: 	File has moved from withemes.com/norris/?p=32 to http://withemes.com/norris/post-formar-link/
+10:57:48	Warning: 	Moved Permanently for withemes.com/norris/?p=187
+10:57:48	Warning: 	File has moved from withemes.com/norris/?p=187 to http://withemes.com/norris/vertical-image/
+10:57:50	Warning: 	Moved Permanently for withemes.com/norris/?p=48
+10:57:50	Warning: 	File has moved from withemes.com/norris/?p=48 to http://withemes.com/norris/about-us/
+10:57:53	Error: 	"No data (connection closed)" (-4) after 2 retries at link withemes.com/norris/wp-content/themes/norris/images/white-rhombus-small@2x.png (from !/norris/wp-content/themes/norris/images/white-rhombus-small@2x.png)
+10:57:53	Warning: 	Moved Permanently for withemes.com/norris/author/admin/page/1/
+10:57:53	Warning: 	File has moved from withemes.com/norris/author/admin/page/1/ to http://withemes.com/norris/author/admin/
+10:57:53	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/2013/05/ (from withemes.com/norris/2013/08/)
+10:58:02	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/wp-content/themes/norris/images/sidrbg/nami_@2X.png (from !/norris/wp-content/themes/norris/images/sidrbg/nami_@2X.png)
+10:58:02	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/wp-content/themes/norris/images/logo.png (from !/norris/wp-content/themes/norris/images/logo.png)
+10:58:02	Error: 	"No data (connection closed)" (-4) after 2 retries at link withemes.com/norris/wp-content/uploads/2013/10/brand2.png (from !/norris/wp-content/uploads/2013/10/brand2.png)
+10:58:07	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/wp-content/plugins/wi-shortcodes/includes/images/next.png (from !/norris/wp-content/plugins/wi-shortcodes/includes/images/next.png)
+10:58:12	Error: 	"No data (connection closed)" (-4) after 2 retries at link withemes.com/norris/wp-content/themes/norris/images/sidrbg/nami_@2X.png (from !/norris/wp-content/themes/norris/images/sidrbg/nami_@2X.png)
+10:58:13	Error: 	"No data (connection closed)" (-4) after 2 retries at link withemes.com/norris/wp-content/plugins/wi-portfolio/js/jquery.waitforimages.js?ver=1.0 (from !/norris/wp-content/plugins/wi-portfolio/js/jquery.waitforimages.js?ver=1.0)
+10:58:13	Warning: 	Retry after error -4 (No data (connection closed)) at link withemes.com/norris/wp-content/plugins/wi-portfolio/images/loading.gif (from !/norris/wp-content/plugins/wi-portfolio/images/loading.gif)
+10:58:15	Error: 	"No data (connection closed)" (-4) after 2 retries at link withemes.com/norris/wp-content/plugins/wi-portfolio/images/loading.gif (from !/norris/wp-content/plugins/wi-portfolio/images/loading.gif)
+10:58:16	Error: 	"No data (connection closed)" (-4) after 2 retries at link withemes.com/norris/wp-content/themes/norris/images/logo.png (from !/norris/wp-content/themes/norris/images/logo.png)
+10:58:16	Error: 	"No data (connection closed)" (-4) after 2 retries at link withemes.com/norris/wp-content/plugins/wi-shortcodes/includes/images/next.png (from !/norris/wp-content/plugins/wi-shortcodes/includes/images/next.png)
+
+HTTrack Website Copier/3.47-27 mirror complete in 24 minutes 21 seconds : 430 links scanned, 351 files written (11598164 bytes overall) [12087470 bytes received at 8273 bytes/sec], 1.3 requests per connection
+(15 errors, 94 warnings, 0 messages)
